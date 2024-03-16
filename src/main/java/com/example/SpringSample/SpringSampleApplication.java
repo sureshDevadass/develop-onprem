@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class SpringSampleApplication {
 	@GetMapping("/message")
 	public String get() {
-		return "Deployed";
+		return "Deployed successfully";
 	}
 	public static void main(String[] args) {
 		SpringApplication.run(SpringSampleApplication.class, args);
